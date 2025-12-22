@@ -19,7 +19,7 @@ It is built using **HTML** only, without any external frameworks or libraries.
 ---
 
 
-##How to Use Online
+## How to Use Online
 You can view this website online using **GitHub Pages**:
 
 1. This website will be live at a URL like:

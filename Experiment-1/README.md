@@ -27,7 +27,7 @@ You can view this website online using **GitHub Pages**:
   https://jaymeen07-r.github.io/IT-Workshop/Experiment-1/
   ```
 
-3. Open this URL in any browser to view the website and navigate through pages.
+2. Open this URL in any browser to view the website and navigate through pages.
 
 
 ---

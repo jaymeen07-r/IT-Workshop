@@ -23,11 +23,11 @@ It is built using **HTML** only, without any external frameworks or libraries.
 You can view this website online using **GitHub Pages**:
 
 1. This website will be live at a URL like:
-'''bash
+  ```bash
   https://jaymeen07-r.github.io/IT-Workshop/Experiment-1/
-'''
+  ```
 
-2. Open this URL in any browser to view the website and navigate through pages.
+3. Open this URL in any browser to view the website and navigate through pages.
 
 
 ---

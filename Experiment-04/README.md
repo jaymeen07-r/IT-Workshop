@@ -88,5 +88,5 @@ https://jaymeen07-r.github.io/IT-Workshop/Experiment-04/
 ## Author
 **Jaymeen**  
 Student – 3rd Semester  
-*Computer Engineering & Information Technology*  
+*Computer Engineering*  
 **Vidush Somany Institute of Technology and Research, Kadi** [web:31]

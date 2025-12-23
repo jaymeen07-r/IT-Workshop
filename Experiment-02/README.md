@@ -45,9 +45,16 @@ https://jaymeen07-r.github.io/IT-Workshop/Experiment-02/
 ## Preview
 Example layout of the timetable:
 
-| Time | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
-|------|---------|----------|-----------|-----------|----------|-----------|
-| 9:00 – 10:45 | DE(VSP), DBMS(SMS) | ... | ... | ... | ... | ... |
+| Time            | Monday                                                 | Tuesday                                                     | Wednesday                                                   | Thursday                                                     | Friday                                                       | Saturday                                                   |
+|-----------------|--------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------------------|
+| 9:00 to 10:45   |                                                        |                                                             |                                                             |                                                              |                                                              | B1-DE(VSP)<br>B2-DBMS(NSS)<br>B3-ITW(HMB)                  |
+| BREAK           | BREAK                                                  | BREAK                                                       | BREAK                                                       | BREAK                                                        | BREAK                                                        | BREAK                                                      |
+| 11:00 to 12:45  | DE(VSP)<br>DBMS(SMS)                                   | DSA(HS)<br>DE(VSP)                                          | DM(VP)<br>DBMS(AMV)                                         | ITW(PVS)<br>DBMS(AMW)                                        | DSA(HBP)<br>DE(VSP)                                          | B1-DSA(KAD)<br>B2-ITW(PVS)<br>B3-DE(VSP)                  |
+| BREAK           | BREAK                                                  | BREAK                                                       | BREAK                                                       | BREAK                                                        | BREAK                                                        | BREAK                                                      |
+| 12:45 to 3:00   | B1-DBMS(RCB)<br>B2-DE(VSP)<br>B3-DBMS(SMS)             | DM(VP)<br>DBMS(SMS)                                         | ITW(PVS)<br>DSA(HS)                                         | DM(VP)<br>DM(TUTORIAL)(VP)                                   | DSA(HBP)<br>DE(VSP)                                          |                                                            |
+| BREAK           | BREAK                                                  | BREAK                                                       | BREAK                                                       | BREAK                                                        | BREAK                                                        | BREAK                                                      |
+| 3:00 to 5:00    | MENTORING                                              | B1-ITW(AAS)<br>B2-DBMS(AMV)<br>B3-DSA(HS)                  | B1-ITW(NSS)<br>B2-DSA(NSP)<br>B3-ITW(PKS)                  | B1-DBMS(PKS)<br>B2-ITW(PVS)<br>B3-DBMS(RD)                  | LIBRARY                                                      |                                                            |
+
 
 *Breaks and the current ongoing slot are automatically highlighted and animated for clarity.*
 
@@ -64,6 +71,6 @@ Example layout of the timetable:
 ## Author
 **Jaymeen**  
 Student – 3rd Semester  
-*Computer Engineering & Information Technology*  
+*Computer Engineering*  
 **Vidush Somany Institute of Technology and Research, Kadi**
 

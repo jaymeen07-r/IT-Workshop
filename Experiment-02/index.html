@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Time Table</title>
+    <style>
+        body {
+            margin: 2%;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #f5f7fa, #e1f0ff);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            overflow: hidden;
+            background-color: white;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 14px;
+            text-align: center;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+
+        th {
+            background: linear-gradient(to right, #92b5fc, #a6ff90);
+            color: white;
+            font-size: 16px;
+        }
+
+        td:hover {
+            background-color: #e8f5ff;
+            cursor: pointer;
+        }
+
+        .header-title {
+            font-size: 24px;
+            color: #2d2d2d;
+            font-weight: bold;
+        }
+
+        .header-subtitle {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .break-row {
+            background-color: #fff0f0;
+            font-weight: bold;
+            animation: pulse 2.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                background-color: #fff0f0;
+            }
+
+            50% {
+                background-color: #ffdede;
+            }
+
+            100% {
+                background-color: #fff0f0;
+            }
+        }
+
+        .current-slot {
+            background-color: #d4ffd6 !important;
+            border: 2px solid #2ecc71;
+        }
+
+        @media (max-width: 600px) {
+
+            table,
+            th,
+            td {
+                font-size: 11px;
+                padding: 8px;
+            }
+
+            .header-title {
+                font-size: 18px;
+            }
+
+            .header-subtitle {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table id="timetable">
+        <tr>
+            <th colspan="7">
+                <div class="header-title">VIDUSH SOMANY INSTITUTE OF TECHNOLOGY AND RESEARCH, KADI</div>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="7">
+                <div class="header-subtitle">Semester - III [With Effective from: 16/06/2025]</div>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="7">CLASS TIME TABLE - 3G</th>
+        </tr>
+        <tr>
+            <th>KADI</th>
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+            <th>WEDNESDAY</th>
+            <th>THURSDAY</th>
+            <th>FRIDAY</th>
+            <th>SATURDAY</th>
+        </tr>
+        <tr>
+            <td>9:00 to 10:45</td>
+            <td colspan="5"></td>
+            <td>B1-DE(VSP)<br>B2-DBMS(NSS)<br>B3-ITW(HMB)</td>
+        </tr>
+        <tr class="break-row">
+            <td colspan="7">BREAK</td>
+        </tr>
+        <tr>
+            <td>11:00 to 12:45</td>
+            <td>DE(VSP)
+                <hr>DBMS(SMS)
+            </td>
+            <td>DSA(HS)
+                <hr>DE(VSP)
+            </td>
+            <td>DM(VP)
+                <hr>DBMS(AMV)
+            </td>
+            <td>ITW(PVS)
+                <hr>DBMS(AMW)
+            </td>
+            <td>DSA(HBP)
+                <hr>DE(VSP)
+            </td>
+            <td>B1-DSA(KAD)<br>B2-ITW(PVS)<br>B3-DE(VSP)</td>
+        </tr>
+        <tr class="break-row">
+            <td colspan="7">BREAK</td>
+        </tr>
+        <tr>
+            <td>12:45 to 3:00</td>
+            <td>B1-DBMS(RCB)<br>B2-DE(VSP)<br>B3-DBMS(SMS)</td>
+            <td>DM(VP)
+                <hr>DBMS(SMS)
+            </td>
+            <td>ITW(PVS)
+                <hr>DSA(HS)
+            </td>
+            <td>DM(VP)
+                <hr>DM(TUTORIAL)(VP)
+            </td>
+            <td>DSA(HBP)
+                <hr>DE(VSP)
+            </td>
+            <td></td>
+        </tr>
+        <tr class="break-row">
+            <td colspan="7">BREAK</td>
+        </tr>
+        <tr>
+            <td>3:00 to 5:00</td>
+            <td>MENTORING</td>
+            <td>B1-ITW(AAS)<br>B2-DBMS(AMV)<br>B3-DSA(HS)</td>
+            <td>B1-ITW(NSS)<br>B2-DSA(NSP)<br>B3-ITW(PKS)</td>
+            <td>B1-DBMS(PKS)<br>B2-ITW(PVS)<br>B3-DBMS(RD)</td>
+            <td>LIBRARY</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <script>
+        const rows = document.querySelectorAll("#timetable tr");
+        const now = new Date();
+        const hour = now.getHours();
+        rows.forEach(row => {
+            const timeCell = row.cells[0];
+            if (timeCell) {
+                const text = timeCell.textContent;
+                if (text.includes("9:00") && hour >= 9 && hour < 11) row.classList.add("current-slot");
+                else if (text.includes("11:00") && hour >= 11 && hour < 13) row.classList.add("current-slot");
+                else if (text.includes("12:45") && hour >= 13 && hour < 15) row.classList.add("current-slot");
+                else if (text.includes("3:00") && hour >= 15 && hour < 17) row.classList.add("current-slot");
+            }
+        });
+    </script>
+
+</body>
+
+</html>

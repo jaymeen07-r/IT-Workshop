@@ -42,4 +42,8 @@ You can view this website online using **GitHub Pages**:
 ---
 
 ## Author
-**Jaymeen** – Student of 3rd semester Computer Engineering & Information Technology
+
+**Jaymeen**  
+Student – 3rd Semester  
+*Computer Engineering & Information Technology*  
+Vidush Somany Institute of Technology and Research, Kadi

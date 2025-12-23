@@ -24,7 +24,7 @@ You can view this website online using **GitHub Pages**:
 
 1. This website will be live at a URL like:
   ```bash
-  https://jaymeen07-r.github.io/IT-Workshop/Experiment-1/
+  https://jaymeen07-r.github.io/IT-Workshop/Experiment-01/
   ```
 
 2. Open this URL in any browser to view the website and navigate through pages.

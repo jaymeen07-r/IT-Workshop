@@ -14,6 +14,12 @@ It collects **personal details, academic feedback, and contact information** fro
 
 ---
 
+## Live Demo
+View the **live working form** online using **GitHub Pages**:
+https://jaymeen07-r.github.io/IT-Workshop/Experiment-03/
+
+---
+
 ## Features
 
 - **Personal Information Section**  
@@ -41,11 +47,15 @@ It collects **personal details, academic feedback, and contact information** fro
 
 ## How to Use
 
-1. Save the given HTML code as `index.html`.  
+### Online (Live Demo)
+1. Click the **Live Demo** link above to view the form instantly in your browser.  
+2. Fill in the required fields and test the form functionality.  
+3. Use **Reset** to clear and **Submit** to test form submission.
+
+### Local Setup
+1. Save the HTML code as `index.html`.  
 2. Open `index.html` directly in any modern web browser. [web:23]  
-3. Fill in the required fields such as name, enrollment number, department, and feedback options. [web:31]  
-4. Click **Submit** to send the form data (form `action` can later be pointed to any server-side script of your choice). [web:33]  
-5. Click **Reset** to clear all inputs and start again. [web:30]
+3. Fill in all required fields and interact with the form controls. [web:31]
 
 ---
 

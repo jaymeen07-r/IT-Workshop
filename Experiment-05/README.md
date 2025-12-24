@@ -21,7 +21,7 @@ The website is lightweight, responsive, and suitable for beginners learning fron
 ## How to Use Online
 Resume will be live at:
  ```bash
-   https://jaymeen07-r.github.io/Experiment-05/
+   https://jaymeen07-r.github.io/IT-Workshop/Experiment-05/
  ```
 
 ## Features

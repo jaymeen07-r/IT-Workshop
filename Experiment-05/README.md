@@ -52,5 +52,5 @@ Resume will be live at:
 
 **Jaymeen**  
 Student – 3rd Semester  
-*Computer Engineering & Information Technology*  
+*Computer Engineering*  
 Vidush Somany Institute of Technology and Research, Kadi
